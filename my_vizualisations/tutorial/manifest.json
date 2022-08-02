@@ -1,0 +1,23 @@
+{
+  "name": "Community Visualization",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+  "organization": "Data Studio Codelab",
+  "organizationUrl": "https://www.orange.com/fr",
+  "termsOfServiceUrl": "https://url",
+  "supportUrl": "https://url",
+  "packageUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "description": "Community Visualization Codelab",
+  "devMode": true,
+  "components": [{
+    "id": "barChart",
+    "name": "Bar Chart",
+    "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+    "description": "Bar chart written in d3.js",
+    "resource": {
+      "js": "gs://bucket_vdmc5301_ds_pub/myViz.js",
+      "config": "gs://bucket_vdmc5301_ds_pub/myViz.json",
+      "css": "gs://bucket_vdmc5301_ds_pub/myViz.css"
+    }
+  }]
+}
